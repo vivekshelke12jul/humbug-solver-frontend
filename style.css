@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gridContainer{
+    display: grid;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    width: 750px;
+    height: 750px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gridItem{
+    border: 1px solid black;
+}
+
+.empty_tile{
+    background-color: green;
+}
+
+.snail_tile{
+    background-image: url('./images/snail.png');
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+.star_tile{
+    background-image: url('./images/star.png');
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+.unreachable{
+    background-color: darkgray;
+}
+
+.passable{
+    background-color: green;
+}
+
+.wall{
+    background-color: darkgray;
+}
